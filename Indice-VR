@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroVision VR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AgroVision VR</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#features">Características</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>AgroVision VR es la solución de realidad virtual que te permite monitorear el crecimiento de tus cultivos de forma eficiente y precisa, brindando datos esenciales para optimizar tu producción agrícola.</p>
+    </section>
+
+    <section id="features">
+        <h2>Características</h2>
+        <ul>
+            <li>Monitoreo de crecimiento de cultivos en tiempo real</li>
+            <li>Visualización de datos en un entorno de realidad virtual inmersivo</li>
+            <li>Detección de deficiencias de nutrientes y riego</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/f/YOUR_EMAIL" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AgroVision VR. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
